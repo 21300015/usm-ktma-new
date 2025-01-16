@@ -6,6 +6,11 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('home');
+        return view('index');
+    }
+
+    public function register(): string
+    {
+        return view('register');
     }
 }

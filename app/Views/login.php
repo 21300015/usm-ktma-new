@@ -11,22 +11,21 @@
     <meta name="author" content="ThemePixels">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?php base_url('public/assets/img/favicon.png'); ?>">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
 
     <title>Pendaftaran KTMA Universitas Saintek Muhammadiyah</title>
 
     <!-- vendor css -->
-    <link href="<?php base_url('public/lib/@fortawesome/fontawesome-free/css/all.min.css'); ?>" rel="stylesheet">
-    <link href="<?php base_url('public/lib/ionicons/css/ionicons.min.css'); ?>" rel="stylesheet">
+    <link href="lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
     <!-- template css -->
-    <link rel="stylesheet" href="<?php base_url('/assets/css/cassie.css'); ?>">
+    <link rel="stylesheet" href="assets/css/cassie.css">
 
   </head>
   <body>
-  	<?php echo base_url(); ?>
     <div class="signin-panel">
-      <svg-to-inline path="http://themepixels.me/cassie/assets/svg/citywalk.svg" class-Name="svg-bg"></svg-to-inline>
+      <img src="assets/img/bg1.png" class-Name="svg-bg">
 
       <div class="signin-sidebar">
         <div class="signin-sidebar-body">
@@ -62,10 +61,10 @@
       </div><!-- signin-sidebar -->
     </div><!-- signin-panel -->
 
-    <script src="<?php base_url('public/lib/jquery/jquery.min.js'); ?>"></script>
-    <script src="<?php base_url('public/lib/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
-    <script src="<?php base_url('public/lib/feather-icons/feather.min.js'); ?>"></script>
-    <script src="<?php base_url('public/lib/perfect-scrollbar/perfect-scrollbar.min.js'); ?>"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/feather-icons/feather.min.js"></script>
+    <script src="lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 
     <script>
       $(function(){
@@ -80,6 +79,6 @@
 
       })
     </script>
-    <script src="<?php base_url('public/assets/js/svg-inline.js'); ?>"></script>
+    <script src="assets/js/svg-inline.js"></script>
   </body>
 </html>
